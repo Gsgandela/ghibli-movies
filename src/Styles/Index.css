@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .card-content h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .card-content p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .botoes {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .botoes button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #0077ff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .botoes button:hover {
+    background-color: #005fcc;
+  }
+  
+  @media (width >= 1280px) {
+    :root {
+        --fs-lg: 2rem;
+        --fs-xl: 2.625rem;
+        --fs-2xl: 4rem;
+
+        --py-sm: 1rem;
+        --py-base: 1.5rem;
+        --py-lg: 2.5rem;
+        --py-xl: 5rem;
+        --pg-lg: 2rem;
+    }
+}
