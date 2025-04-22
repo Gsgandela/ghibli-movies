@@ -23,4 +23,49 @@ cd ghibli-movies
 
   NPM run dev
 
+  
+# Ferramentas Utilizadas
+. React
+
+. Vite
+
+. TypeScript
+
+. CSS Puro (sem frameworks de estilo)
+
+. Studio Ghibli API
+
+✅ Requisitos Implementados
+
+. Utilização de React com JavaScript/TypeScript.
+
+. Consumo da API de filmes do Studio Ghibli.
+
+. Exibição dos filmes com:
+
+. Imagem
+
+. Título
+
+. Ano de lançamento
+
+. Duração
+
+. Sinopse
+
+. Diretor e produtor
+
+. Pontuação (rt_score)
+
+. Interface simples e organizada.
+
+. Componentização com uso de hooks (useState, useEffect).
+
+# Requisitos Opcionais:
+
+. Utilização de TypeScript.
+
+ Responsividade básica.
+
+⚠️ Por enquanto, nenhum teste automatizado foi adicionado.
 
