@@ -51,7 +51,6 @@ cd ghibli-movies
 
 . Duração
 
-. Sinopse
 
 . Diretor e produtor
 
